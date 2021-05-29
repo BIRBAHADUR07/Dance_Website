@@ -1,0 +1,227 @@
+# Dance_Website
+website
+
+
+:::::::::All the commands used to upload files to github::::::::::
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ git branch -m master main
+fatal: not a git repository (or any of the parent directories): .git
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ git config --global user.name "Code With Bir"
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ git config --global user.email "shivran.bir07@gmail.com"
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ touch .gitignore
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ git commit -m "Initial Commit"
+fatal: not a git repository (or any of the parent directories): .git
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website
+$ git init
+Initialized empty Git repository in C:/Users/shivr/Desktop/web_development_practice_and_projects/Dance_Website/.git/
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (master)
+$ git branch -m master main
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/shivr/Desktop/web_development_practice_and_projects/Dance_Website/.git/
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> main
+
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git add .
+warning: LF will be replaced by CRLF in app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/styleContact.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/base.pug.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/contact.pug.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/home.pug.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/index.pug.
+The file will have its original line endings in your working directory
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git commit -m "Initial Commit"
+[main (root-commit) d1e23de] Initial Commit
+ 21 files changed, 2310 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 static/bg.jpg
+ create mode 100644 static/img/1.png
+ create mode 100644 static/img/16bdc130-7e8c-4926-9f8d-1d5735e09b5b.jfif
+ create mode 100644 static/img/2.png
+ create mode 100644 static/img/3.png
+ create mode 100644 static/img/logo.png
+ create mode 100644 static/img/logo1.png
+ create mode 100644 static/img/logo2.png
+ create mode 100644 static/img/logo3.png
+ create mode 100644 static/img/logo4.png
+ create mode 100644 static/index.js
+ create mode 100644 static/style.css
+ create mode 100644 static/styleContact.css
+ create mode 100644 views/base.pug
+ create mode 100644 views/contact.pug
+ create mode 100644 views/home.pug
+ create mode 100644 views/index.pug
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git remote add origin git@github.com:BIRBAHADUR07/Dance_Website.git
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git pull
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git push origin main
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git remote show origin
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ ssh-keygen -t rsa -b 4096 -C "shivran.bir07@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/shivr/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/shivr/.ssh/id_rsa
+Your public key has been saved in /c/Users/shivr/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:3wDjZwXFzFQ4B0bXbqcRmnr4Nmqm3eeo8/GZK2+L39I shivran.bir07@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|          .B*+o. |
+|           o*.o .|
+|        o   .= o |
+|       . o .o . +|
+|        S +o   +.|
+|         +oo. .  |
+|          .oo  . |
+|         .+.==++E|
+|        .++*=OX+.|
++----[SHA256]-----+
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ cat /c/Users/shivr/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDrhWl33jNlM1jJAiMzPMnyiRvrqLvpcdlx2JsCmKIfwwyDlBp4l8FIFQXgeuS38w5IIutj7lbKhuy8hABQj/9BIqFBNwUwBJMKRem8bvIHhLKrOYDYTre/UE5TuN8YcUXwpGvTE/W2xNZwh2mCqUfd1cts7FiwMLDGM5ygqMMDUf9R0Qcgsr61KD3/h5ow3Xfo0o1/zl31m+1ErSdwMx7wsDOC7nK8eme5NAXaGOHDBR4Oacykhu5rhoaSQ2o3LQr132vwlMB+OXeKHaJ6qiU4ygHOfMCikY+CfaKkHMruvGZptpQ+9yB66zERp+d85pXaJ+CFVjlrjTynkB2cTGmlkXF62LYTXNTIlNQBki1pJwqHLGOT6aDnTczbXFaBGGGb4naz9Up7dZ86Slr2DndeW700q4wmnO3oiBoV2hNTA2z7AGgpb9uSHJOYvyOVfqBgWvV7h/znvfFW2bcgzB7k+LCwatSnw+Asn0UzYUJNyIo5itiHY993Im6x5Ufll1bnTs3XUltPiUCbtuHnAXyXXjKaMb2xTxJd+iu5yK5Y9qyqd6ecDBh26lEcGn/ykykrKqA4+WDq+8foYT450NpZrssgYwTjFTbbV6anQ2SemBFlx3srOLeRMxOtSMf4sjcPu0XNPIrYIbn/b5gxw4XFuYaE04k0U0T4gLYMsCNiGQ== shivran.bir07@gmail.com
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git push origin main
+To github.com:BIRBAHADUR07/Dance_Website.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:BIRBAHADUR07/Dance_Website.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git ull
+git: 'ull' is not a git command. See 'git --help'.
+
+The most similar command is
+        pull
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git pull
+Unpacking objects: 100% (3/3), 612 bytes | 102.00 KiB/s, done.1/3)
+
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+From github.com:BIRBAHADUR07/Dance_Website
+ * [new branch]      main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$ git push origin main
+To github.com:BIRBAHADUR07/Dance_Website.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:BIRBAHADUR07/Dance_Website.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$  git push -f -u origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (26/26), 1.01 MiB | 2.14 MiB/s, done.
+Total 26 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:BIRBAHADUR07/Dance_Website.git
+ + 8177d44...d1e23de main -> main (forced update)
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+shivr@LAPTOP-MBHFL65C MINGW64 ~/Desktop/web_development_practice_and_projects/Dance_Website (main)
+$
+
+
+
+
