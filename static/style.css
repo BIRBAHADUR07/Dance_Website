@@ -1,0 +1,155 @@
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#logo {
+    display: inline-block;
+    /* align-items: center; */
+    height: 40px;
+}
+
+#navbar #logo img {
+    /* display: flex; */
+    /* align-items: center; */
+    height: 40px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#navbar {
+    display: flex;
+    background-color: rgb(230, 46, 46);
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    position: sticky;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    background: url('/static/bg.jpg') center center/cover no-repeat;
+    height: 600px;
+    /* background-color: red; */
+    color: white;
+    font-size: 35px;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.small {
+    font-size: 1.3rem;
+}
+
+#missionSection {
+    height: 330px;
+    display: block;
+    width: 100%;
+    margin: auto;
+    /* display: flex;
+
+
+    justify-content: center;
+
+
+    align-items: center; */
+}
+
+#missionSection .mission {
+    height: 300px;
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    height: 70%;
+    margin: 10px;
+    display: inline-block;
+    background-color: lemonchiffon;
+}
+
+.card h3 {
+    text-align: center;
+    /* text-align: center; */
+    margin: 10px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.card-img {
+    height: 100px
+}
+
+.card-img img {
+    height: 100px
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color: white;
+}
+
+#sponsorSection h2 {
+    text-align: center;
+    padding: 5px;
+    background-color: wheat;
+}
+
+#sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#sponsors img {
+    margin: 20px;
+    padding: 1px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#footer {
+    height: 100px;
+    background-color: black;
+}
